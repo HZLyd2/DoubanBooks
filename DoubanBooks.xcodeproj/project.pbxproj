@@ -23,6 +23,9 @@
 		BA0FE0D323540DBB0025AF0C /* BookRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0FE0D223540DBB0025AF0C /* BookRepository.swift */; };
 		BA14F5512355CBDB0097210A /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14F5502355CBDB0097210A /* Repository.swift */; };
 		BA14F5532355CCA10097210A /* DataViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14F5522355CCA10097210A /* DataViewModelDelegate.swift */; };
+		BA399DDB235964CB00041AA9 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA399DDA235964CB00041AA9 /* CategoryCell.swift */; };
+		BA399DDF23596D3C00041AA9 /* DoubanBooksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA399DDE23596D3C00041AA9 /* DoubanBooksController.swift */; };
+		BA399DE3235A918900041AA9 /* AddCategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA399DE2235A918900041AA9 /* AddCategoryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		BA0FE0D223540DBB0025AF0C /* BookRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRepository.swift; sourceTree = "<group>"; };
 		BA14F5502355CBDB0097210A /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		BA14F5522355CCA10097210A /* DataViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModelDelegate.swift; sourceTree = "<group>"; };
+		BA399DDA235964CB00041AA9 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		BA399DDE23596D3C00041AA9 /* DoubanBooksController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanBooksController.swift; sourceTree = "<group>"; };
+		BA399DE2235A918900041AA9 /* AddCategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,7 @@
 		BA0F665123516A500057367A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BA399DDA235964CB00041AA9 /* CategoryCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +186,8 @@
 		BA0F665823516DB80057367A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BA399DDE23596D3C00041AA9 /* DoubanBooksController.swift */,
+				BA399DE2235A918900041AA9 /* AddCategoryController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -286,7 +295,9 @@
 			files = (
 				BA0FE0CD2353F54B0025AF0C /* CategoryFactory.swift in Sources */,
 				BA0F665A23517AF60057367A /* DataError.swift in Sources */,
+				BA399DE3235A918900041AA9 /* AddCategoryController.swift in Sources */,
 				BA0FE0D323540DBB0025AF0C /* BookRepository.swift in Sources */,
+				BA399DDB235964CB00041AA9 /* CategoryCell.swift in Sources */,
 				BA0F665423516B020057367A /* VMCategory.swift in Sources */,
 				BA0F66252351508B0057367A /* ViewController.swift in Sources */,
 				BA14F5512355CBDB0097210A /* Repository.swift in Sources */,
@@ -296,6 +307,7 @@
 				BA0F665623516BAA0057367A /* CategoryRepository.swift in Sources */,
 				BA0FE0D123540DA60025AF0C /* BookFactory.swift in Sources */,
 				BA0F66232351508B0057367A /* AppDelegate.swift in Sources */,
+				BA399DDF23596D3C00041AA9 /* DoubanBooksController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
